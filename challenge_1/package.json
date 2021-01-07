@@ -1,45 +1,19 @@
 {
   "name": "challenge_1",
   "version": "1.0.0",
-  "description": "Historical Events Finder",
-  "private": true,
-  "dependencies": {
-    "@material-ui/core": "^4.11.2",
-    "antd": "^4.10.0",
-    "axios": "^0.21.1",
-    "css-loader": "^5.0.1",
-    "json-server": "^0.16.3",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-paginate": "^7.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-server --watch data/db.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
     "webpack": "^5.11.1",
     "webpack-cli": "^4.3.1"
   },
-  "devDependencies": {
-    "@babel/core": "^7.12.10",
-    "@babel/preset-env": "^7.12.11",
-    "@babel/preset-react": "^7.12.10",
-    "babel-loader": "^8.2.2",
-    "style-loader": "^2.0.0"
-  },
-  "scripts": {
-    "server": "json-server --watch data/db.json",
-    "webpack-dev": "webpack --watch --mode=development"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/andy-a-d-nguyen/hrsf131-mini-apps-2.git"
-  },
-  "author": "Andy Nguyen",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/andy-a-d-nguyen/hrsf131-mini-apps-2/issues"
-  },
-  "homepage": "https://github.com/andy-a-d-nguyen/hrsf131-mini-apps-2#readme",
-  "babel": {
-    "presets": [
-      "@babel/preset-env",
-      "@babel/preset-react"
-    ]
+  "dependencies": {
+    "json-server": "^0.16.3"
   }
 }
